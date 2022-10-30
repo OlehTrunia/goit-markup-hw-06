@@ -191,32 +191,28 @@
         <use href="./images/icons.svg#icomoon-ignore"></use></svg></button>   
         <form class="business-form">
             <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
-           <div class="form-field">
-                <label for="client-name">Ім'я</label>
-                <input name="name " id="client-name" value="" type="text" autofocus />
+            <label class="form-field">
+                <span class="form-field-title">Ім'я</span>
+                <input class="form-item" name="name" value="" type="text" autofocus />
                 <svg class="form-icon" width="18px" height="18px">
-                    <use href="./images/icons.svg#icon-person"></use></svg>
-           </div>
-            <div class="form-field">
-                <label for="client-phone">Телефон</label>
-                <input id="client-phone" value="" type="tel">
+                <use href="./images/icons.svg#icon-person"></use></svg></label>
+            <label class="form-field">
+                <span class="form-field-title">Телефон</span>
+                <input class="form-item" name="phone" value="" type="tel">
                 <svg class="form-icon" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-phone"></use></svg>
-            </div>
-            <div class="form-field">
-                <label for="client-email">Пошта</label>
-                <input id="client-email" value="" type="email">
+                <use href="./images/icons.svg#icon-phone"></use></svg></label>
+            <label class="form-field">
+                <span class="form-field-title">Пошта</span>
+                <input class="form-item" name="email" value="" type="email">
                 <svg class="form-icon" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-email"></use></svg>
-            </div>
-            <div class="form-field ">
-                <label id="feedback">Коментар</label>
-                <textarea name="feedback" rows="7" placeholder="Введіть текст"></textarea>
-            </div>
-           <div class="form-field check">
-                <input type="checkbox" name="policy" id="policy">
-                <label for="policy">Погоджуюся з розсилкою та приймаю <a href="" class="form-license">Умови договору</a></label>
-           </div>
+                <use href="./images/icons.svg#icon-email"></use></svg></label>
+            <label class="form-field ">
+                <span class="form-field-title">Коментар</span>
+                <textarea class="form-item" name="feedback" rows="7" placeholder="Введіть текст"></textarea></label>      
+            <label class="form-field check">
+                <input class="checkbox" type="checkbox" name="policy">
+                <svg class="checkbox-icon" width="16px" height="15px"><use href="./images/icons.svg#icon-form-vector"></use></svg>
+                Погоджуюся з розсилкою та приймаю <a href="" class="form-license">Умови договору</a></label>
             <button  class="form-btn" type="submit">Відправити</button>
         </form>
         </div>
@@ -257,14 +253,13 @@
             </div>   
             <form class="footer-form">
                 <p class="footer-form-title">Підпишіться на розсилку</p>
-                <div class="footer-form-field">
+                <label class="footer-form-field">
                     <input type="email" name="client-email" placeholder="E-mail">
-                    <label for="client-email"></label>
                     <button class="footer-button" type="submit">Підписатися
                     <svg class="footer-form-icon" width="24px" height="24px">
                     <use href="./images/icons.svg#icon-icon-send"></use></svg>
                     </button>
-                </div>
+                </label>
             </form>
         </div>
     </footer>
